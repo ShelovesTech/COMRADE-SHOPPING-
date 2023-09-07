@@ -1,0 +1,125 @@
+body{
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.electronics {
+    background-color: #ffcccc;
+}
+
+.home-utensils {
+    background-color: #ccffcc;
+}
+
+.home-products {
+    background-color: #ccccff;
+}
+
+.bathroom-utilities {
+    background-color: #ffffcc;
+}
+
+
+.maincontent{
+    width: auto;
+    height: 720px;
+    background-image: url(IMG/WhatsApp\ Image\ 2023-03-24\ at\ 16.11.07.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0%;
+}
+
+.about{
+    flex: 1;
+    text-align: right;
+}
+.about ul li{
+    list-style:none;
+    display: inline-block;
+    margin-left: 60px;
+}
+.about ul li a{
+    text-decoration: none;
+    color: gold;
+    font-size: 35px;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+.image-container{
+    height:270px;
+    width: auto;
+    padding: 40px 500px;
+    position: relative;
+    margin:0px;
+    background-image: url(IMG/farmers3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    background-color: red;
+    height: 50px;
+    width: auto;
+    padding:50px 500px;
+    margin:0px;
+}
+ .page footer ul li{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 8px;
+    float: left;
+    margin-left: 16px;
+    display: list-item;
+} 
+
+aside{
+    float: left;
+    margin: 0 16px 4px 0;
+    padding: 8px 16px 0 16px;
+    background-color: orange;
+    font-size: medium;
+    transform:translateY();
+    display: list-item;
+
+    
+}
+aside ul li{
+    padding: 8px 20px;
+    display: list-item;
+    margin-left:60px;
+    display: list-item;
+   
+}
+
+nav{
+    flex:1;
+    text-align: right;
+    color: rgb(232, 126, 13);
+}
+button{
+    width:180px;
+    color:black;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color:white;
+    border-radius: 20px;
+    margin-top: 30px;
+}
